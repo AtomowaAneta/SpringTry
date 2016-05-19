@@ -3,9 +3,13 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
-    <bean id="myLogger" class="implementation.LoggerrImplem"/>
+    <bean id="myLogger" class="implementation.LoggerrImplem">
+        <property name="name" value="MeineLoggeren"/>
+        <property name="version" value="1.01"/>
+    </bean>
+
     <bean id="userRepo" class="implementation.UserRepoImplem">
-    <property name="loggerr" ref="myLogger"> </property>
+    <property name="loggerr" ref="myLogger"/>
     </bean>
 
 

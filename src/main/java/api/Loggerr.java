@@ -5,4 +5,6 @@ package api;
  */
 public interface Loggerr {
     void logMessage(String message);
+    void setName(String name);
+    void setVersion(double version);
 }
