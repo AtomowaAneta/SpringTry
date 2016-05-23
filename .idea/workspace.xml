@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78a0c855-2d6e-413b-9bd8-9f8e03ba62f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/implementation/SomeBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MainPackage/MainClass.class" afterPath="$PROJECT_DIR$/target/classes/MainPackage/MainClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/api/UserRepo.class" afterPath="$PROJECT_DIR$/target/classes/api/UserRepo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/implementation/UserRepoImplem.class" afterPath="$PROJECT_DIR$/target/classes/implementation/UserRepoImplem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MainPackage/MainSpring.class" afterPath="$PROJECT_DIR$/target/classes/MainPackage/MainSpring.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MainPackage/MainClass.java" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/MainClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MainPackage/MainSpring.java" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/MainSpring.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/api/UserRepo.java" afterPath="$PROJECT_DIR$/src/main/java/api/UserRepo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/implementation/UserRepoImplem.java" afterPath="$PROJECT_DIR$/src/main/java/implementation/UserRepoImplem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/bean.xml" afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/bean.xml" afterPath="$PROJECT_DIR$/target/classes/bean.xml" />
     </list>
     <ignored path="newSpring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,16 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserRepo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/api/UserRepo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserRepoImplem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/implementation/UserRepoImplem.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainSpring.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainSpring.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/MainSpring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="74" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
+            <state relative-caret-position="504">
+              <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,6 +95,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LoggerrImplem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/implementation/LoggerrImplem.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,7 +117,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sping/user/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -151,6 +144,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -182,8 +176,9 @@
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/MainClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/implementation/UserRepoImplem.java" />
         <option value="$PROJECT_DIR$/src/main/java/implementation/SomeBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainPackage/MainSpring.java" />
         <option value="$PROJECT_DIR$/src/main/resources/bean.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/MainSpring.java" />
       </list>
     </option>
   </component>
@@ -282,6 +277,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -873,12 +872,12 @@
       <option name="presentableId" value="Default" />
       <updated>1463652220772</updated>
       <workItem from="1463652223936" duration="6606000" />
-      <workItem from="1463992271867" duration="7192000" />
+      <workItem from="1463992271867" duration="8378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13798000" />
+    <option name="totallyTimeSpent" value="14984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="980" extended-state="6" />
@@ -892,7 +891,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1008,14 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implementation/SomeBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="97" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/api/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1034,24 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/MainSpring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="74" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/api/Loggerr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1065,6 +1038,40 @@
         <state relative-caret-position="90">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementation/SomeBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="97" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/MainSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
