@@ -7,7 +7,7 @@ import sping.user.User;
  */
 public interface UserRepo {
     User createUser(String name);
-    void setLoggerr(Loggerr loggerr);
+
 
 
 }

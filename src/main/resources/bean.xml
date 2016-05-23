@@ -9,7 +9,14 @@
     </bean>
 
     <bean id="userRepo" class="implementation.UserRepoImplem">
-    <property name="loggerr" ref="myLogger"/>
+        <constructor-arg index="2" value="db"></constructor-arg>
+        <constructor-arg ref="myLogger"></constructor-arg>
+        <constructor-arg index="1" value="http://123.32.4.5:3452"></constructor-arg>
+    </bean>
+    
+    <bean id="SomeBean" class="implementation.SomeBean">
+        <constructor-arg type="java.lang.String"  value="50"/>
+        <constructor-arg value="100"/>
     </bean>
 
 

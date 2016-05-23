@@ -12,8 +12,6 @@ import sping.user.User;
 public class MainClass {
     public static void main(String[] args) {
         Loggerr loggerr = new LoggerrImplem();
-        UserRepo userRepo = new UserRepoImplem();
-        userRepo.setLoggerr(loggerr);
-        User user = userRepo.createUser("ZdzilawToOn");
+
     }
 }
